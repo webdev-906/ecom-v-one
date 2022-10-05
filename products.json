@@ -1,0 +1,97 @@
+[
+  {
+    "name": "Lamborghini Huracan",
+    "price": "$2,500",
+    "description": "White Lamborghini Huracan with Carbon Fiber",
+    "image": "../imgs/car-one.webp"
+  
+}, 
+
+  {
+    "name": "Ferrari 458 Italia",
+    "price": "$3,000",
+    "description": "Black Ferrari 458 V12 Engine ",
+    "image": "../imgs/car-two.webp"
+  
+}
+, 
+
+  {
+    "name": "Corvette C8 Stingray",
+    "price": "$2,000",
+    "description": "Light blue Stringray",
+    "image": "../imgs/car-three.webp"
+  
+},
+{
+  "name": "Amg Gt",
+  "price": "$3,000",
+  "description": "Gray Amg Gt V8 Engine with yellow strips",
+  "image": "../imgs/car-four.webp"
+
+}
+,
+{
+  "name": "Corvette Z06",
+  "price": "$2,200",
+  "description": "Orange lightweight corvette",
+  "image": "../imgs/car-five.webp"
+
+}
+,
+{
+  "name": "Audi R8",
+  "price": "$2,500",
+  "description": "Blue Audi R8 V10 Engine",
+  "image": "../imgs/car-six.webp"
+
+}
+,
+{
+  "name": "BMW i8",
+  "price": "$2,000",
+  "description": "Orange/Black BMW i8 1.5 L 3-Cylinder Engine",
+  "image": "../imgs/car-seven.webp"
+
+}
+,
+{
+  "name": "Ferrari F12 Berlinetta",
+  "price": "$5,000",
+  "description": "Gun metal Ferrari V12 Engine",
+  "image": "../imgs/car-eight.webp"
+
+}
+,
+{
+  "name": "Mclaren 720s",
+  "price": "$2,000",
+  "description": "Gray Mclaren 720s V8 Engine",
+  "image": "../imgs/car-nine.webp"
+
+}
+,
+{
+  "name": "Bently Benteyga",
+  "price": "$4,500",
+  "description": "White Bently Benteyga V8 Engine",
+  "image": "../imgs/car-ten.webp"
+
+}
+,
+{
+  "name": "Bugatti Chiron",
+  "price": "$50,000",
+  "description": "Bugatti Chrion V12 Engine",
+  "image": "../imgs/car-eleven.webp"
+
+}
+,
+{
+  "name": "Nissan GTR",
+  "price": "$2,000",
+  "description": "Green Nissan GTR V6 Engine",
+  "image": "../imgs/car-twelve.webp"
+
+}
+]
