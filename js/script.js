@@ -14,7 +14,7 @@ images[2] = '../imgs/slide-three.webp';
 // Function to change the images 
 // ------------------------------ // 
 function changeImg(){
-  document.slide.src = images[i];
+  document.querySelector('#slide').src = images[i];
 
   if (i < images.length - 1){
     i++
