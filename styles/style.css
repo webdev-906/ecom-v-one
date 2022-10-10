@@ -1,23 +1,27 @@
+/* Reset */
 body {
   margin: 0;
   padding: 0;
   font-family: fantasy;
 }
 
+/* Setting our divider and making sure our scroll bar is acessible just in case there is not enough content within the body of our pages */
 html {
   font-size: 62.5%;
   height: 101%;
 }
 
+/* .current show us what current page we're on  */
 .current {
   border-bottom: 0.3rem solid orangered;
 }
 
+/* For our logo */
 span {
   color: orangered;
 }
 
-
+/* Flexbox  */
 nav {
   display: flex; 
   justify-content: space-between;
@@ -25,13 +29,14 @@ nav {
   background: #333;
   color: #fff;
 }
-
+/* Pushing our logo to the left and making it align with our nav items */
 nav .logo{
   margin-left: 0.6rem;
   font-size: 2rem;
   margin-bottom: 2rem;
 }
 
+/* unordered list being to set to column */
 nav ul {
   display: flex;
   margin: 0.1rem;
@@ -48,19 +53,21 @@ nav a {
   text-decoration: none;
 }
 
-
+/* What holds our slider */
 .container {
-  width: 100%;
+  max-width: 100%;
   height: 85vh;
   background: #222;
 }
 
+/* Perserving the aspect ratio */
 .container img {
   width: 100%; 
   height: 100%;
   object-fit: fill;
 }
 
+/* flex; column */
 .about {
   font-size: 2.5rem;
   display: flex;
@@ -116,7 +123,7 @@ nav a {
 }
 
 
-
+/* linear gradient - two colors */
 form {
   display: flex;
   flex-direction: column;
@@ -125,6 +132,7 @@ form {
 
 }
 
+/* creating our animation  */
 form .form-text {
   font-size: 3rem;
   text-align: center;
@@ -164,7 +172,7 @@ outline: none;
 caret-color: #fff;
 }
 
-input[type="text"]{
+input[type="text"], [type="email"]{
   color: #fff;
   text-shadow: 0.1rem 0.1rem 0.5rem #000;
 }
